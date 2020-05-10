@@ -1,0 +1,9 @@
+D:\0.ToDoList\Project\WM\WM.Infrastructure\bin\Debug\netcoreapp3.1\WM.Infrastructure.deps.json
+D:\0.ToDoList\Project\WM\WM.Infrastructure\bin\Debug\netcoreapp3.1\WM.Infrastructure.dll
+D:\0.ToDoList\Project\WM\WM.Infrastructure\bin\Debug\netcoreapp3.1\WM.Infrastructure.pdb
+D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.csprojAssemblyReference.cache
+D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.csproj.CoreCompileInputs.cache
+D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.AssemblyInfoInputs.cache
+D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.AssemblyInfo.cs
+D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.dll
+D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.pdb

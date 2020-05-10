@@ -1,0 +1,12 @@
+D:\0.ToDoList\Project\WM\WM.Data\bin\Debug\netcoreapp3.1\WM.Data.deps.json
+D:\0.ToDoList\Project\WM\WM.Data\bin\Debug\netcoreapp3.1\WM.Data.dll
+D:\0.ToDoList\Project\WM\WM.Data\obj\Debug\netcoreapp3.1\WM.Data.AssemblyInfoInputs.cache
+D:\0.ToDoList\Project\WM\WM.Data\obj\Debug\netcoreapp3.1\WM.Data.AssemblyInfo.cs
+D:\0.ToDoList\Project\WM\WM.Data\obj\Debug\netcoreapp3.1\WM.Data.csprojAssemblyReference.cache
+D:\0.ToDoList\Project\WM\WM.Data\bin\Debug\netcoreapp3.1\WM.Data.pdb
+D:\0.ToDoList\Project\WM\WM.Data\bin\Debug\netcoreapp3.1\WM.Infrastructure.dll
+D:\0.ToDoList\Project\WM\WM.Data\bin\Debug\netcoreapp3.1\WM.Infrastructure.pdb
+D:\0.ToDoList\Project\WM\WM.Data\obj\Debug\netcoreapp3.1\WM.Data.csproj.CoreCompileInputs.cache
+D:\0.ToDoList\Project\WM\WM.Data\obj\Debug\netcoreapp3.1\WM.Data.csproj.CopyComplete
+D:\0.ToDoList\Project\WM\WM.Data\obj\Debug\netcoreapp3.1\WM.Data.dll
+D:\0.ToDoList\Project\WM\WM.Data\obj\Debug\netcoreapp3.1\WM.Data.pdb

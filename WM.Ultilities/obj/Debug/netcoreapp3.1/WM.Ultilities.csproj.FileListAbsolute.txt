@@ -1,0 +1,9 @@
+D:\0.ToDoList\Project\WM\WM.Ultilities\bin\Debug\netcoreapp3.1\WM.Ultilities.deps.json
+D:\0.ToDoList\Project\WM\WM.Ultilities\bin\Debug\netcoreapp3.1\WM.Ultilities.dll
+D:\0.ToDoList\Project\WM\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.csprojAssemblyReference.cache
+D:\0.ToDoList\Project\WM\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.AssemblyInfoInputs.cache
+D:\0.ToDoList\Project\WM\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.AssemblyInfo.cs
+D:\0.ToDoList\Project\WM\WM.Ultilities\bin\Debug\netcoreapp3.1\WM.Ultilities.pdb
+D:\0.ToDoList\Project\WM\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.csproj.CoreCompileInputs.cache
+D:\0.ToDoList\Project\WM\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.dll
+D:\0.ToDoList\Project\WM\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.pdb

@@ -1,0 +1,17 @@
+D:\0.ToDoList\Project\WM\WM.Data.EF\bin\Debug\netcoreapp3.1\WM.Data.EF.deps.json
+D:\0.ToDoList\Project\WM\WM.Data.EF\bin\Debug\netcoreapp3.1\WM.Data.EF.dll
+D:\0.ToDoList\Project\WM\WM.Data.EF\obj\Debug\netcoreapp3.1\WM.Data.EF.csprojAssemblyReference.cache
+D:\0.ToDoList\Project\WM\WM.Data.EF\obj\Debug\netcoreapp3.1\WM.Data.EF.AssemblyInfoInputs.cache
+D:\0.ToDoList\Project\WM\WM.Data.EF\obj\Debug\netcoreapp3.1\WM.Data.EF.AssemblyInfo.cs
+D:\0.ToDoList\Project\WM\WM.Data.EF\bin\Debug\netcoreapp3.1\WM.Data.EF.runtimeconfig.json
+D:\0.ToDoList\Project\WM\WM.Data.EF\bin\Debug\netcoreapp3.1\WM.Data.EF.runtimeconfig.dev.json
+D:\0.ToDoList\Project\WM\WM.Data.EF\obj\Debug\netcoreapp3.1\WM.Data.EF.genruntimeconfig.cache
+D:\0.ToDoList\Project\WM\WM.Data.EF\bin\Debug\netcoreapp3.1\WM.Data.EF.pdb
+D:\0.ToDoList\Project\WM\WM.Data.EF\bin\Debug\netcoreapp3.1\WM.Data.dll
+D:\0.ToDoList\Project\WM\WM.Data.EF\bin\Debug\netcoreapp3.1\WM.Infrastructure.dll
+D:\0.ToDoList\Project\WM\WM.Data.EF\bin\Debug\netcoreapp3.1\WM.Data.pdb
+D:\0.ToDoList\Project\WM\WM.Data.EF\bin\Debug\netcoreapp3.1\WM.Infrastructure.pdb
+D:\0.ToDoList\Project\WM\WM.Data.EF\obj\Debug\netcoreapp3.1\WM.Data.EF.csproj.CoreCompileInputs.cache
+D:\0.ToDoList\Project\WM\WM.Data.EF\obj\Debug\netcoreapp3.1\WM.Data.EF.csproj.CopyComplete
+D:\0.ToDoList\Project\WM\WM.Data.EF\obj\Debug\netcoreapp3.1\WM.Data.EF.dll
+D:\0.ToDoList\Project\WM\WM.Data.EF\obj\Debug\netcoreapp3.1\WM.Data.EF.pdb
