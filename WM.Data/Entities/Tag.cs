@@ -9,9 +9,7 @@ namespace WM.Data.Entities
 {
   public  class Tag : DomainEntity<int>
     {
-        [ForeignKey("UserID")]
         public int UserID { get; set; }
-        [ForeignKey("TaskID")]
         public int TaskID { get; set; }
         public virtual Task Task { get; set; }
         public virtual User User { get; set; }

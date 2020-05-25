@@ -130,23 +130,21 @@ namespace WM.WebApi
             services.AddTransient<ITaskRepository, TaskRepository>();
             services.AddTransient<ITeamMemberRepository, TeamMemberRepository>();
             services.AddTransient<IOCUserRepository, OCUserRepository>();
+            services.AddTransient<IUploadImageRepository, UploadImageRepository>();
 
             //Service
             services.AddTransient<IChatService, ChatService>();
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<ICommentService, CommentService>();
-            services.AddTransient<IDeputyService, DeputyService>();
             services.AddTransient<IFollowService, FollowService>();
             services.AddTransient<IHistoryService, HistoryService>();
-            services.AddTransient<IManagerService, ManagerService>();
             services.AddTransient<INotificationService, NotificationService>();
             services.AddTransient<INotificationDetailService, NotificationDetailService>();
             services.AddTransient<IOCService, OCService>();
             services.AddTransient<IProjectService, ProjectService>();
+            services.AddTransient<ILineService, LineService>();
             services.AddTransient<IRoleService, RoleService>();
-            services.AddTransient<IRoomService, RoomService>();
             services.AddTransient<ITaskService, TaskService>();
-            services.AddTransient<ITeamMemberService, TeamMemberService>();
             services.AddTransient<IOCUserService, OCUserService>();
             services.AddControllers().AddNewtonsoftJson(options =>
             {

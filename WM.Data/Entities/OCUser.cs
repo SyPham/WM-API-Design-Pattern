@@ -8,10 +8,8 @@ namespace WM.Data.Entities
 {
    public class OCUser
     {
-        [Required]
         [Key, Column(Order = 0)]
         public int UserID { get; set; }
-        [Required]
         [Key, Column(Order = 1)]
         public int OCID { get; set; }
         public bool Status { get; set; }

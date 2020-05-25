@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using WM.Data.Enums;
 
 namespace WM.Application.ViewModel.Comment
 {
@@ -13,6 +14,7 @@ namespace WM.Application.ViewModel.Comment
         public string Content { get; set; }
         public string TaskCode { get; set; }
         public int Level { get; set; }
+        public ClientRouter ClientRouter { get; set; }
         // public WM.Data.Enums.ClientRouter ClientRouter { get; set; }
     }
 }

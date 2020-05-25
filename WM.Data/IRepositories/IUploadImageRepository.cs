@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using WM.Application.Interface;
 using WM.Data.Entities;
 using WM.Infrastructure.Interfaces;
 
-namespace WM.Application.Implementation
+namespace WM.Data.IRepositories
 {
-
-    public class RoomService : IRoomService
+   public interface IUploadImageRepository : IRepository<UploadImage, int>
     {
     }
 }

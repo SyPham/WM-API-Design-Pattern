@@ -4,10 +4,9 @@ using System.Text;
 using WM.Data.Entities;
 using WM.Infrastructure.Interfaces;
 
-namespace WM.Application.Interface
+namespace WM.Data.IRepositories
 {
-
-    public interface IDeputyService
+   public interface IParticipantRepository : IRepository<Participant, int>
     {
     }
 }

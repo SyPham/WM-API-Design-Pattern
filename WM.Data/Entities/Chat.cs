@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using WM.Infrastructure.SharedKernel;
 
 namespace WM.Data.Entities
@@ -11,7 +9,6 @@ namespace WM.Data.Entities
         {
             CreatedTime = DateTime.Now;
         }
-
         public int RoomID { get; set; }
         public int ProjectID { get; set; }
         public int UserID { get; set; }

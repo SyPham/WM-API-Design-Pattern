@@ -19,8 +19,5 @@ namespace WM.Data.Entities
         public string TaskCode { get; set; }
         public int Level { get; set; }
         public DateTime CreatedTime { get; set; }
-        public virtual ICollection<CommentDetail> CommentDetails { get; set; }
-        public virtual Task Task { get; set; }
-        public virtual User User { get; set; }
     }
 }

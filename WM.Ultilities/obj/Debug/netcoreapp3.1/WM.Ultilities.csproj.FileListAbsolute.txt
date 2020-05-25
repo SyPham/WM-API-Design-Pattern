@@ -7,3 +7,12 @@ D:\0.ToDoList\Project\WM\WM.Ultilities\bin\Debug\netcoreapp3.1\WM.Ultilities.pdb
 D:\0.ToDoList\Project\WM\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.csproj.CoreCompileInputs.cache
 D:\0.ToDoList\Project\WM\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.dll
 D:\0.ToDoList\Project\WM\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.pdb
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Ultilities\bin\Debug\netcoreapp3.1\WM.Ultilities.deps.json
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Ultilities\bin\Debug\netcoreapp3.1\WM.Ultilities.dll
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Ultilities\bin\Debug\netcoreapp3.1\WM.Ultilities.pdb
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.csprojAssemblyReference.cache
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.csproj.CoreCompileInputs.cache
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.AssemblyInfoInputs.cache
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.AssemblyInfo.cs
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.dll
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Ultilities\obj\Debug\netcoreapp3.1\WM.Ultilities.pdb

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Storage;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,5 +12,6 @@ namespace WM.Infrastructure.Interfaces
         /// Call save change from db context
         /// </summary>
         Task Commit();
+        IDbContextTransaction BeginTransaction();
     }
 }

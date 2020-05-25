@@ -13,9 +13,7 @@ namespace WM.Data.Entities
             CreatedTime = DateTime.Now;
         }
 
-        [ForeignKey("UserID")]
-        public int UserID { get; set; }
-        [ForeignKey("TaskID")]
+        public int? UserID { get; set; }
         public int TaskID { get; set; }
         public string Message { get; set; }
         public string Function { get; set; }

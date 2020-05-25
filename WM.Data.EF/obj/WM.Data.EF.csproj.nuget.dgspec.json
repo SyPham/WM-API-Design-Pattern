@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\0.ToDoList\\Project\\WM\\WM.Data.EF\\WM.Data.EF.csproj": {}
+    "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data.EF\\WM.Data.EF.csproj": {}
   },
   "projects": {
-    "D:\\0.ToDoList\\Project\\WM\\WM.Data.EF\\WM.Data.EF.csproj": {
+    "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data.EF\\WM.Data.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\0.ToDoList\\Project\\WM\\WM.Data.EF\\WM.Data.EF.csproj",
+        "projectUniqueName": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data.EF\\WM.Data.EF.csproj",
         "projectName": "WM.Data.EF",
-        "projectPath": "D:\\0.ToDoList\\Project\\WM\\WM.Data.EF\\WM.Data.EF.csproj",
-        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
-        "outputPath": "D:\\0.ToDoList\\Project\\WM\\WM.Data.EF\\obj\\",
+        "projectPath": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data.EF\\WM.Data.EF.csproj",
+        "packagesPath": "C:\\Users\\sy.pham\\.nuget\\packages\\",
+        "outputPath": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sy.pham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\0.ToDoList\\Project\\WM\\WM.Data\\WM.Data.csproj": {
-                "projectPath": "D:\\0.ToDoList\\Project\\WM\\WM.Data\\WM.Data.csproj"
+              "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data\\WM.Data.csproj": {
+                "projectPath": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data\\WM.Data.csproj"
               }
             }
           }
@@ -87,20 +87,20 @@
         }
       }
     },
-    "D:\\0.ToDoList\\Project\\WM\\WM.Data\\WM.Data.csproj": {
+    "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data\\WM.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\0.ToDoList\\Project\\WM\\WM.Data\\WM.Data.csproj",
+        "projectUniqueName": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data\\WM.Data.csproj",
         "projectName": "WM.Data",
-        "projectPath": "D:\\0.ToDoList\\Project\\WM\\WM.Data\\WM.Data.csproj",
-        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
-        "outputPath": "D:\\0.ToDoList\\Project\\WM\\WM.Data\\obj\\",
+        "projectPath": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data\\WM.Data.csproj",
+        "packagesPath": "C:\\Users\\sy.pham\\.nuget\\packages\\",
+        "outputPath": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sy.pham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,8 +113,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\0.ToDoList\\Project\\WM\\WM.Infrastructure\\WM.Infrastructure.csproj": {
-                "projectPath": "D:\\0.ToDoList\\Project\\WM\\WM.Infrastructure\\WM.Infrastructure.csproj"
+              "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Infrastructure\\WM.Infrastructure.csproj": {
+                "projectPath": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Infrastructure\\WM.Infrastructure.csproj"
               }
             }
           }
@@ -160,20 +160,20 @@
         }
       }
     },
-    "D:\\0.ToDoList\\Project\\WM\\WM.Infrastructure\\WM.Infrastructure.csproj": {
+    "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Infrastructure\\WM.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\0.ToDoList\\Project\\WM\\WM.Infrastructure\\WM.Infrastructure.csproj",
+        "projectUniqueName": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Infrastructure\\WM.Infrastructure.csproj",
         "projectName": "WM.Infrastructure",
-        "projectPath": "D:\\0.ToDoList\\Project\\WM\\WM.Infrastructure\\WM.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
-        "outputPath": "D:\\0.ToDoList\\Project\\WM\\WM.Infrastructure\\obj\\",
+        "projectPath": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Infrastructure\\WM.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\sy.pham\\.nuget\\packages\\",
+        "outputPath": "F:\\0.Document\\angular9\\DesignPattern\\WM-API-Design-Pattern\\WM.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sy.pham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,6 +196,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -8,13 +8,11 @@ namespace WM.Data.Entities
 {
    public class NotificationDetail : DomainEntity<int>
     {
-        [ForeignKey("UserID")]
         public int UserID { get; set; }
-        [ForeignKey("NotificationID")]
         public int NotificationID { get; set; }
         public bool Seen { get; set; }
-        public virtual User User { get; set; }
         public virtual Notification Notification { get; set; }
+        public virtual User User { get; set; }
     }
     /*
      From system

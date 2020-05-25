@@ -1,0 +1,4 @@
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\Signalr\bin\Debug\netcoreapp3.1\Signalr.deps.json
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\Signalr\bin\Debug\netcoreapp3.1\Signalr.dll
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\Signalr\obj\Debug\netcoreapp3.1\Signalr.AssemblyInfoInputs.cache
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\Signalr\obj\Debug\netcoreapp3.1\Signalr.AssemblyInfo.cs

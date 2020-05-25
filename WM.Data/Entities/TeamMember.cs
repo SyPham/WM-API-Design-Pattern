@@ -9,9 +9,7 @@ namespace WM.Data.Entities
 {
    public class TeamMember : DomainEntity<int>
     {
-        [ForeignKey("UserID")]
         public int UserID { get; set; }
-        [ForeignKey("ProjectID")]
         public int ProjectID { get; set; }
         public virtual Project Project { get; set; }
         public virtual User User { get; set; }

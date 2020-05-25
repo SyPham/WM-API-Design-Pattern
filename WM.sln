@@ -5,23 +5,23 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{983C5FF1-16D4-40E7-8EC3-880C9856CCF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WM.WebApi", "WM.WebApi\WM.WebApi.csproj", "{8EC6D85E-7998-425A-B31E-75310D1F8B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WM.WebApi", "WM.WebApi\WM.WebApi.csproj", "{8EC6D85E-7998-425A-B31E-75310D1F8B2D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{CDF60BB1-ABAC-4DF0-AAD4-614B0D939527}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WM.Application", "WM.Application\WM.Application.csproj", "{54EA22ED-2985-40C6-8E3B-7C8A76ECB951}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WM.Application", "WM.Application\WM.Application.csproj", "{54EA22ED-2985-40C6-8E3B-7C8A76ECB951}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{025FF9B6-04C1-45E2-9F59-D697A9DF4672}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{EF867060-B652-40C9-A816-5E897A1E27F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WM.Data", "WM.Data\WM.Data.csproj", "{69445468-1BFD-4C49-9DCF-E352D037D853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WM.Data", "WM.Data\WM.Data.csproj", "{69445468-1BFD-4C49-9DCF-E352D037D853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WM.Data.EF", "WM.Data.EF\WM.Data.EF.csproj", "{2C3901A3-BC30-43B2-B156-1D08476050EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WM.Data.EF", "WM.Data.EF\WM.Data.EF.csproj", "{2C3901A3-BC30-43B2-B156-1D08476050EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WM.Infrastructure", "WM.Infrastructure\WM.Infrastructure.csproj", "{E5F28E8A-4AB0-491B-BAF7-1DF01A8F7ED2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WM.Infrastructure", "WM.Infrastructure\WM.Infrastructure.csproj", "{E5F28E8A-4AB0-491B-BAF7-1DF01A8F7ED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WM.Ultilities", "WM.Ultilities\WM.Ultilities.csproj", "{4D989586-CBB2-40FE-9BAD-B73A832EBD14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WM.Ultilities", "WM.Ultilities\WM.Ultilities.csproj", "{4D989586-CBB2-40FE-9BAD-B73A832EBD14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

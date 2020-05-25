@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Storage;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,12 @@ namespace WM.Data.EF
         {
             _context = context;
         }
+
+        public IDbContextTransaction BeginTransaction()
+        {
+           return  _context.Database.BeginTransaction();
+        }
+
         public async Task Commit()
         {
            await _context.SaveChangesAsync();
@@ -22,5 +29,7 @@ namespace WM.Data.EF
         {
             _context.Dispose();
         }
+
+       
     }
 }

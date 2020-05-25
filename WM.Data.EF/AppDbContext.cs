@@ -41,6 +41,7 @@ namespace WM.Data.EF
         public DbSet<Tutorial> Tutorials { get; set; }
         public DbSet<History> Histories { get; set; }
         public DbSet<UploadImage> UploadImages { get; set; }
+        public DbSet<Participant> Participants { get; set; }
         public DbSet<CheckTask> CheckTasks { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {

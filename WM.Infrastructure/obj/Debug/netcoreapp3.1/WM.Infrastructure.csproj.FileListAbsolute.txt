@@ -7,3 +7,11 @@ D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastruc
 D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.AssemblyInfo.cs
 D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.dll
 D:\0.ToDoList\Project\WM\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.pdb
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Infrastructure\bin\Debug\netcoreapp3.1\WM.Infrastructure.deps.json
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Infrastructure\bin\Debug\netcoreapp3.1\WM.Infrastructure.dll
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Infrastructure\bin\Debug\netcoreapp3.1\WM.Infrastructure.pdb
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.csprojAssemblyReference.cache
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.AssemblyInfoInputs.cache
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.AssemblyInfo.cs
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.dll
+F:\0.Document\angular9\DesignPattern\WM-API-Design-Pattern\WM.Infrastructure\obj\Debug\netcoreapp3.1\WM.Infrastructure.pdb

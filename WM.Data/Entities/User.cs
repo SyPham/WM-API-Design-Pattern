@@ -16,6 +16,7 @@ namespace WM.Data.Entities
         public string Email { get; set; }
         public int RoleID { get; set; }
         public string ImageURL { get; set; }
+        public string AccessTokenLineNotify { get; set; }
         public byte[] ImageBase64 { get; set; }
         public bool isLeader { get; set; }
         public virtual Role Role { get; set; }
@@ -26,9 +27,8 @@ namespace WM.Data.Entities
         public virtual ICollection<Deputy> Deputies { get; set; }
         public virtual ICollection<TeamMember> TeamMembers { get; set; }
         public virtual ICollection<Manager> Managers { get; set; }
+        public virtual ICollection<Project> Projects { get; set; }
         public virtual ICollection<Task> Tasks { get; set; }
-        public virtual ICollection<Comment> Comment { get; set; }
-        public virtual ICollection<CommentDetail> CommentDetails { get; set; }
 
     }
 }

@@ -11,14 +11,12 @@ namespace WM.Data.Entities
         public string Name { get; set; }
         public int Level { get; set; }
         public int ParentID { get; set; }
-     
+
         public string URL { get; set; }
         public string Path { get; set; }
-        [ForeignKey("ProjectID")]
-        public int ProjectID { get; set; }
+        public int? ProjectID { get; set; }
+        public int? TaskID { get; set; }
         public virtual Project Project { get; set; }
-        [ForeignKey("TaskID")]
-        public int TaskID { get; set; }
         public virtual Task Task { get; set; }
     }
 }
