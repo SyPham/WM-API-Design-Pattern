@@ -38,6 +38,7 @@ namespace WM.Application.ViewModel.Project
         public PeriodType periodType { get; set; }
         public string From { get; set; }
         public int CreatedBy { get; set; }
+        public string LastComment { get; set; }
         public int ProjectID { get; set; } = 0;
         public BeAssigned User { get; set; }
         public List<BeAssigned> BeAssigneds { get; set; }

@@ -16,6 +16,8 @@ namespace WM.Data.EF.Configurations
             entity.HasKey(c =>new { c.OCID, c.UserID });
             entity.HasIndex(c =>new { c.UserID });
             // etc.
+
+         
         }
     }
 }

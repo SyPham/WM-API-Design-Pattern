@@ -232,7 +232,7 @@ namespace WM.Application.Implementation
                     await _notificationService.Create(new CreateNotifyParams
                     {
                         AlertType = AlertType.ChangeQuarterly,
-                        Message = CheckMessage(task.JobTypeID, projectName, user.Username, task.JobName, AlertType.ChangeQuarterly),
+                        Message = CheckMessage(task.JobTypeID, projectName, user.Username, task.JobName, AlertType.ChangeQuarterly, task.DueDateTime),
                         Users = users.ToList(),
                         TaskID = task.ID,
                         URL = urlResult,
@@ -244,7 +244,7 @@ namespace WM.Application.Implementation
                     await _notificationService.Create(new CreateNotifyParams
                     {
                         AlertType = AlertType.ChangeDeadline,
-                        Message = CheckMessage(task.JobTypeID, projectName, user.Username, task.JobName, AlertType.ChangeDeadline),
+                        Message = CheckMessage(task.JobTypeID, projectName, user.Username, task.JobName, AlertType.ChangeDeadline, task.DueDateTime),
                         Users = users.ToList(),
                         TaskID = task.ID,
                         URL = urlResult,
@@ -306,21 +306,21 @@ namespace WM.Application.Implementation
                     break;
                 case AlertType.ChangeDeadline:
                     if (isProject)
-                        message = $"{username.ToTitleCase()} has changed deadline to {deadline} of the task name ' {jobName} ' in {project} project";
+                        message = $"{username.ToTitleCase()} has changed deadline:dd MMM, yyyy hh:mm:ss tt to {deadline:dd MMM, yyyy hh:mm:ss tt} of the task name ' {jobName} ' in {project} project";
                     else
-                        message = $"{username.ToTitleCase()} has changed deadline to {deadline} of the task name ' {jobName} '";
+                        message = $"{username.ToTitleCase()} has changed deadline:dd MMM, yyyy hh:mm:ss tt to {deadline:dd MMM, yyyy hh:mm:ss tt} of the task name ' {jobName} '";
                     break;
                 case AlertType.ChangeWeekly:
                     if (isProject)
-                        message = $"{username.ToTitleCase()} has changed deadline to {deadline} of the task name ' {jobName} ' in {project} project";
+                        message = $"{username.ToTitleCase()} has changed deadline:dd MMM, yyyy hh:mm:ss tt to {deadline:dd MMM, yyyy hh:mm:ss tt} of the task name ' {jobName} ' in {project} project";
                     else
-                        message = $"{username.ToTitleCase()} has changed deadline to {deadline} of the task name ' {jobName} '";
+                        message = $"{username.ToTitleCase()} has changed deadline:dd MMM, yyyy hh:mm:ss tt to {deadline:dd MMM, yyyy hh:mm:ss tt} of the task name ' {jobName} '";
                     break;
                 case AlertType.ChangeMonthly:
                     if (isProject)
-                        message = $"{username.ToTitleCase()} has changed deadline to {deadline} of the task name ' {jobName} ' in {project} project";
+                        message = $"{username.ToTitleCase()} has changed deadline:dd MMM, yyyy hh:mm:ss tt to {deadline:dd MMM, yyyy hh:mm:ss tt} of the task name ' {jobName} ' in {project} project";
                     else
-                        message = $"{username.ToTitleCase()} has changed deadline to {deadline} of the task name ' {jobName} '";
+                        message = $"{username.ToTitleCase()} has changed deadline:dd MMM, yyyy hh:mm:ss tt to {deadline:dd MMM, yyyy hh:mm:ss tt} of the task name ' {jobName} '";
                     break;
                 default:
                     break;
@@ -787,7 +787,11 @@ namespace WM.Application.Implementation
             {
                 var item = await _taskRepository.FindByIdAsync(id);
                 if (!item.CreatedBy.Equals(userid))
-                    return false;
+                    return new
+                    {
+                        status = -1,
+                        message = "Sorry! Can not delete this task because you do not create this task!"
+                    };
                 var tasks = await GetListTree(item.ParentID, item.ID);
                 var arrTasks = GetAllTaskDescendants(tasks).Select(x => x.ID).ToList();
 
@@ -798,11 +802,19 @@ namespace WM.Application.Implementation
                 _tutorialRepository.RemoveMultiple(await _tutorialRepository.FindAll().Where(x => arrTasks.Contains(x.TaskID ?? 0)).ToListAsync());
 
                 await _unitOfWork.Commit();
-                return true;
+                return new
+                {
+                    status = 1,
+                    message = "The task has been deleted successfully!"
+                };
             }
             catch (Exception ex)
             {
-                return false;
+                return new
+                {
+                    status = 0,
+                    message = ex.Message
+                };
             }
         }
 
@@ -1393,7 +1405,8 @@ namespace WM.Application.Implementation
                 if (seftAndDescendants.Count() == 1 && item.Level == 1)
                 {
                     //Clone them cai moi voi period moi
-                    await CloneSingleTask(item);
+                    if (item.periodType != PeriodType.SpecificDate)
+                        await CloneSingleTask(item);
                 }
                 // Neu task hien tai level 1 va co con chau thi kiem tra neu con chua done thi return
                 if (seftAndDescendants.Where(x => x.Level > 1).Count() >= 2 && item.Level == 1)
@@ -1455,7 +1468,8 @@ namespace WM.Application.Implementation
                     if (!temp && count >= 1)
                     {
                         //Update Status task con hien tai
-                        await CloneMultiTask(seftAndDescendants);
+                        if (item.periodType != PeriodType.SpecificDate)
+                            await CloneMultiTask(seftAndDescendants);
                     }
                 }
                 if (listUserAlertHub.Count > 0)
@@ -1635,7 +1649,7 @@ namespace WM.Application.Implementation
         {
             try
             {
-                var listTasks = _taskRepository.FindAll().Where(x =>
+                var listTasks = GetAllTasks().Include(x => x.Comments).Where(x =>
                             (x.Tags.Select(x => x.UserID).Contains(userid)
                             || x.Deputies.Select(x => x.UserID).Contains(userid)
                             || x.FromWhoID == userid
@@ -1673,7 +1687,7 @@ namespace WM.Application.Implementation
         {
             try
             {
-                var listTasks = GetAllTasks().Where(x =>
+                var listTasks = GetAllTasks().Include(x => x.Comments).Where(x =>
                             (x.Tags.Select(x => x.UserID).Contains(userid)
                             || x.Deputies.Select(x => x.UserID).Contains(userid)
                             || x.FromWhoID == userid
@@ -1839,7 +1853,7 @@ namespace WM.Application.Implementation
                 //A: Setup and stuff you don't want timed
                 // PublishhMessage("Good morning!");
                 //  await _notificationService.Create(new CreateNotifyParams { Message = "Test", TaskID = 3675, AlertType = AlertType.BeLate, URL = "/todolist/Demo-daily-is-late" });
-                var listTasks = GetAllTasks()
+                var listTasks = GetAllTasks().Include(x => x.Comments)
                     .Where(x => !x.DueDateTime.Equals(DateTime.MinValue))
                     .Where(x =>
                                (x.Tags.Select(x => x.UserID).Contains(userid)

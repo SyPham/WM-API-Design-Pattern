@@ -12,7 +12,7 @@ namespace WM.Data.EF.Configurations
         public override void Configure(EntityTypeBuilder<Task> entity)
         {
             entity.HasKey(c => c.ID );
-            entity.HasOne(c => c.User).WithMany(c => c.Tasks).OnDelete(DeleteBehavior.NoAction);
+            entity.HasOne(c => c.User).WithMany(c => c.Tasks).OnDelete(DeleteBehavior.Cascade);
             // etc.
         }
     }

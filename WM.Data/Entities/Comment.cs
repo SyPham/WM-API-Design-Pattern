@@ -17,7 +17,10 @@ namespace WM.Data.Entities
         public int ParentID { get; set; }
         public string Content { get; set; }
         public string TaskCode { get; set; }
+        public bool Pin { get; set; }
         public int Level { get; set; }
         public DateTime CreatedTime { get; set; }
+        public virtual User User { get; set; }
+        public virtual ICollection<CommentDetail> CommentDetails { get; set; }
     }
 }
